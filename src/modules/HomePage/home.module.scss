@@ -1,0 +1,16 @@
+.homeWrapper{
+    padding: 1rem;
+    width: 100%;
+    height: 100vh;
+    .headerContainer{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .headerTxt{
+            font-size: 1.5rem;
+        }
+        .buttonSection{
+            display: flex;
+        }
+    }
+}

@@ -1,9 +1,9 @@
  
 import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch, Router } from 'react-router-dom';
-import HomePage from '../modules/Home';
-import Add from '../modules/Add';
-import Edit from '../modules/Edit';
+import HomePage from '../modules/HomePage/Home';
+import Add from '../modules/Add/Add';
+import Edit from '../modules/Edit/Edit';
 import history from './history';
 
 class Routes extends Component {
